@@ -4,6 +4,7 @@ import os
 import urllib.request
 from bs4 import BeautifulSoup
 
+os.system("cls")
 ver_dict=[]
 url = "https://www.python.org/ftp/python/"
 response = requests.get(url)
